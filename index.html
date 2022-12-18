@@ -4,126 +4,97 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;900&family=Sen&display=swap" rel="stylesheet">
     <title>Finsweet</title>
     <link rel="stylesheet" href="./css/main.min.css">
 </head>
 <body>
     <header class="header">
         <div class="container">
-            <nav class="site-navigation">
-                <a href="#" class="logo">
+            <nav class="navigation">
+                <a class="logo" href="./index.html">
                     <img src="./images/logo.svg" alt="logo" width="140" height="28">
                 </a>
-                <ul class="site-navigation__list">
-                    <li class="site-navigation__item"><a class="site-navigation__link" href="#">Home</a></li>
-                    <li class="site-navigation__item"><a class="site-navigation__link" href="#">Blog</a></li>
-                    <li class="site-navigation__item"><a class="site-navigation__link" href="#">About Us</a></li>
-                    <li class="site-navigation__item"><a class="site-navigation__link" href="#">Contact us</a></li>
+                <ul class="navigation__list">
+                    <li class="navigation__item"><a href="#" class="navigation__link">Home</a></li>
+                    <li class="navigation__item"><a href="#" class="navigation__link">Blog</a></li>
+                    <li class="navigation__item"><a href="#" class="navigation__link">About Us</a></li>
+                    <li class="navigation__item"><a href="#" class="navigation__link">Conatact us</a></li>
                 </ul>
-                <a href="#" class="site-navigation__btn">Subscribe</a>
+                <button type="button" class="navigation__btn button--subscribe">Subscribe</button>
             </nav>
         </div>
     </header>
     <main class="main">
-        <section class="hero">
+        <section class="section hero">
             <div class="container">
                 <p class="hero__sub-text">Posted on <b>startup</b></p>
-                <h1 class="hero-title">
-                    Step-by-step guide to choosing great font pairs
-                </h1>
-                <p class="author">By <a href="#" class="author__name">James West</a>  |  May 23, 2022 </p>
-                <p class="hero__text">
-                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.
-                </p>
-                <a class="hero__link readmore-btn" href="">Read More ></a>
+                <h1 class="hero__title">Step-by-step guide to choosing great font pairs</h1>
+                <p class="hero__data">By <span class="hero__author">James West</span>  |  May 23, 2022 </p>
+                <p class="hero__text">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.</p>
+                <a class="hero__button button--yellow" href="">Read More ></a>
             </div>
         </section>
-        <section class="section-posts">
-            <div class="container">
-                <h2 class="section-posts__title visually-hidden">Posts</h2>
-                <div class="section-posts__content">
-                    <div class="current-post">
-                        <h3 class="current-post__main-title">Featured Post</h3>
-                        <div class="current-post__wrap">
-                            <img class="current-post__img" src="./images/mian-page/white-building.jpg" alt="white house" width="669" height="352">
-                            <p class="current-post__data">By <a class="current-post__author" href="#">John Doe</a>   |   May 23, 2022</p>
-                            <h4 class="current-post__title">
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.
+        <section class="section">
+            <div class="container posts">
+                <h2 class="vissually-hidden">Posts</h2>
+                <div class="current-post">
+                    <h3 class="posts__main-title">Featured Post</h3>
+                    <div class="current-post__wrap">
+                        <img class="current-post__img" src="./images/mian-page/white-building.jpg" alt="white building" width="670" height="350">
+                        <p class="current-post__author">
+                            By <a href="#">John Doe</a>   l   May 23, 2022
+                        </p>
+                        <h4 class="current-posts__title">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.
+                        </h4>
+                        <p class="current-post__text">
+                            Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.
+                        </p>
+                        <a class="button--yellow" href="#">Read More ></a>
+                    </div>
+                </div>
+                <div class="posts-list">
+                    <div class="posts-list__header">
+                        <h3 class="posts__main-title">All Posts</h3>
+                        <a class="posts-list__header-link" href="#">View All</a>
+                    </div>
+                    <ul class="posts-list__list">
+                        <li class="posts-list__item">
+                            <p class="posts-list__author">By <a href="#">John Doe</a>   l   May 23, 2022</p>
+                            <h4 class="pots-list__title">
+                                8 Figma design systems that you can download for free today.
                             </h4>
-                            <p class="current-post__text">
-                                Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.
-                            </p>
-                            <a class="current-post__link readmore-btn" href="#">Read More ></a>
-                        </div>
-                    </div>
-                    <div class="posts">
-                        <div class="posts__header">
-                            <h3 class="posts__main-title">All Posts</h3>
-                            <a class="posts__main-link" href="">View All</a>
-                        </div>
-                        <ul class="posts__list">
-                            <li class="posts__item">
-                                <p class="posts__data">By <a class="posts__author" href="#">John Deo</a>   |   Aug 23, 2021</p>
-                                <h4 class="posts__title">
-                                    8 Figma design systems that you can download for free today.
-                                </h4>
-                            </li>
-                            <li class="posts__item posts__item--current">
-                                <p class="posts__data">By <a class="posts__author" href="#">John Deo</a>   |   Aug 23, 2021</p>
-                                <h4 class="posts__title">
-                                    8 Figma design systems that you can download for free today.
-                                </h4>
-                            </li>
-                            <li class="posts__item">
-                                <p class="posts__data">By <a class="posts__author" href="#">John Deo</a>   |   Aug 23, 2021</p>
-                                <h4 class="posts__title">
-                                    8 Figma design systems that you can download for free today.
-                                </h4>
-                            </li>
-                            <li class="posts__item">
-                                <p class="posts__data">By <a class="posts__author" href="#">John Deo</a>   |   Aug 23, 2021</p>
-                                <h4 class="posts__title">
-                                    8 Figma design systems that you can download for free today.
-                                </h4>
-                            </li>
-                        </ul>
-                    </div>
+                        </li>
+                        <li class="posts-list__item posts-list__item--current">
+                            <p class="posts-list__author">By <a href="#">John Doe</a>   l   May 23, 2022</p>
+                            <h4 class="pots-list__title">
+                                8 Figma design systems that you can download for free today.
+                            </h4>
+                        </li>
+                        <li class="posts-list__item">
+                            <p class="posts-list__author">By <a href="#">John Doe</a>   l   May 23, 2022</p>
+                            <h4 class="pots-list__title">
+                                8 Figma design systems that you can download for free today.
+                            </h4>
+                        </li>
+                        <li class="posts-list__item">
+                            <p class="posts-list__author">By <a href="#">John Doe</a>   l   May 23, 2022</p>
+                            <h4 class="pots-list__title">
+                                8 Figma design systems that you can download for free today.
+                            </h4>
+                        </li>
+                    </ul>
                 </div>
             </div>
         </section>
-        <section class="section-about">
+        <section class="section about">
             <div class="container">
-                <h2 class="visually-hidden">About us</h2>
-                <div class="line">
-                    <span class="line__first"></span>
-                    <span class="line__second"></span>
-                </div>
-                <div class="about-wrap">
-                    <div class="about-wrap__about">
-                        <h3 class="about__title">About us</h3>
-                        <p class="about-us__main-text">
-                            We are a community of content writers who share their learnings
-                        </p>
-                        <p class="about-us__secondary-text">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                        </p>
-                    </div>
-                    <div class="about-wrap__mision">
-                        <h3 class="about__title">Our mision</h3>
-                        <p class="mision__main-text">
-                            Creating valuable content for creatives all around the world
-                        </p>
-                        <p class="mision-secondary-text">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                        </p>
-                    </div>
-                    <a class="about__link" href="">Read More ></a>
-                </div>
+                
             </div>
         </section>
     </main>
+    <footer class="footer">
+
+    </footer>
 </body>
 </html>

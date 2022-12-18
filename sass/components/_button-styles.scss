@@ -1,0 +1,34 @@
+.button--subscribe {
+    display: inline-block;
+
+    padding: 16px 48px;
+    border: 0;
+
+    background-color: #ffffff;
+
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.3;
+
+    color: $color-black;
+}
+
+.button--yellow {
+    display: inline-block;
+
+    padding: 16px 48px;
+    border: 0;
+
+    background-color: $color-yellow;
+
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.3;
+
+    color: $color-black;
+
+    &:hover,
+    &:focus {
+        background-color: #EDC14A;
+    }
+}

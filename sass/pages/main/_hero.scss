@@ -1,0 +1,47 @@
+.hero {
+    padding: 128px 0px 192px 0px;
+    background-image: url(../../../images/mian-page/hero-bg.jpg);
+}
+
+.hero__sub-text {
+    margin-bottom: 24px;
+
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.25;
+    letter-spacing: 0.03;
+    text-transform: uppercase;
+    color: #ffffff;
+}
+
+.hero__title {
+    width: 800px;
+    margin-bottom: 24px;
+
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1.14;
+    letter-spacing: -0.02;
+    color: #ffffff;
+}
+
+.hero__data {
+    margin-bottom: 16px;
+
+    font-size: 16px;
+    line-height: 1.75;
+    color: #ffffff;
+}
+
+.hero__author {
+    color: $color-yellow;
+}
+
+.hero__text {
+    width: 530px;
+    margin-bottom: 48px;
+
+    font-size: 16px;
+    line-height: 28px;
+    color: #ffffff;
+}

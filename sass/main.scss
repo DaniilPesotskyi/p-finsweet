@@ -1,13 +1,11 @@
-@import './utils/vars';
 @import './utils/resets';
-@import './utils/adds';
+@import './utils/commons';
+@import './utils/vars';
 
-@import './components/header';
+@import './components/button-styles';
 
-@import './components/readmore-btn';
+@import './components/page-header';
 
-@import './layouts/main-page/hero';
-@import './layouts/main-page/posts';
-@import './layouts/main-page/about';
-
-@import './components/footer';
+@import './pages/main/hero';
+@import './pages/main/posts';
+@import './pages/main/about';

@@ -1,0 +1,28 @@
+.header {
+    background-color: $color-black;
+}
+
+.navigation {
+    display: flex;
+    align-items: center;
+}
+
+.navigation__list {
+    display: flex;
+    gap: 24px;
+
+    margin-left: 620px;
+}
+
+.navigation__link {
+    display: inline-block;
+    padding: 26px 0px;
+
+    font-size: 16px;
+    line-height: 1.75;
+    color: #ffffff;
+}
+
+.navigation__btn {
+    margin-left: auto;
+}
