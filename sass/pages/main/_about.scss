@@ -1,0 +1,63 @@
+.about__decoration-line {
+    display: flex;
+    width: 1060px;
+    margin-left: auto;
+}
+
+.decoration-line__yellow {
+    width: 70%;
+    height: 23px;
+
+    background-color: $color-yellow;
+}
+
+.decoration-line__purple {
+    width: 30%;
+    height: 23px;
+
+    background-color: $color-purple;
+}
+
+.section-about__content {
+    display: flex;
+    gap: 61px;
+    padding: 96px 80px;
+
+    background-color: $color-lavender;
+}
+
+.container__about {
+
+}
+
+.about__title {
+    margin-bottom: 24px;
+
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 1.25;
+    color: $color-black;
+}
+
+.about__main-text {
+
+}
+
+.container__mission {
+
+}
+
+.mission__title {
+    margin-bottom: 24px;
+
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 1.25;
+    color: $color-black;
+}
+
+.about__secondary-text {
+
+}
