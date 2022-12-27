@@ -1,0 +1,64 @@
+.authors__title {
+    margin-bottom: 48px;
+    text-align: center;
+
+    font-family: 'Sen', sans-serif;
+    font-size: 36px;
+    line-height: 1.3;
+    letter-spacing: -2px;
+    color: $color-black;
+}
+
+.authors__list {
+    display: flex;
+    gap: 32px;
+}
+
+.author_card {
+    flex-basis: calc((100% - 128px) / 4);
+    padding: 40px 0px;
+
+    background-color: $color-light-grey;
+
+}
+
+.author__img {
+    margin-bottom: 20px;
+
+    border-radius: 50%;
+}
+
+.author__name {
+    text-align: center;
+
+    font-family: 'Sen', sans-serif;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 1.4;
+    letter-spacing: -1px;
+    color: $color-black;
+}
+
+.author__pos {
+    margin-bottom: 20px;
+    text-align: center;
+
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    line-height: 20px;
+    color: $color-medium-grey;
+}
+
+.author__socials {
+}
+
+.socials__icon-wrap {
+    border-radius: 50%;
+}
+
+.socials__icon {
+    background-color: #fff;
+}
+
+.socials__iconwrap {
+}

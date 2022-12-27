@@ -1,0 +1,45 @@
+.section-started__wrap {
+    position: relative;
+}
+
+.started-content__wrap {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+
+    width: 706px;
+    padding: 80px;
+
+    background-color: #fff;
+}
+
+.started-content__title {
+    margin-bottom: 24px;
+
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 3px;
+    color: $color-black;
+    text-transform: uppercase;
+}
+
+.started-content__main-text {
+    margin-bottom: 16px;
+
+    font-family: 'Sen', sans-serif;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 64px;
+    letter-spacing: -2px;
+}
+
+.started-content__secondary-text {
+    margin-bottom: 32px;
+
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    line-height: 28px;
+    color: $color-medium-grey;
+}
